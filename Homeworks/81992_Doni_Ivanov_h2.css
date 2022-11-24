@@ -1,0 +1,36 @@
+body {
+    background-color: #defdf1;
+    text-align: center;
+    margin-top: 100px;
+}
+
+form {
+    justify-content: center;
+    display: inline-block;
+    border: 1px solid #447322;  
+    padding: 10px;
+}
+
+input, select {
+    display: block;
+    height: 25px;
+    width: 250px;
+    margin: 10px;
+    border: 1.5px solid #c3cdc0;
+}
+    
+input:hover, select:hover {
+    border: solid 2px #558d3d;
+}
+
+#register {
+    color: #447322;
+    background-color: #cfe7d9;
+    text-align: center;
+}
+
+#register:hover {
+    border: 1.5px solid #c3cdc0;
+    background-color: #558d3d;
+    color: #cfe7d9
+}
