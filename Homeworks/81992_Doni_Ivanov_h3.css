@@ -1,0 +1,17 @@
+body {
+    background-color: #ADD8E6;
+    text-align: center;
+    margin-top: 100px;
+}
+
+form {
+    display: inline-block;
+}
+
+input, select, textarea {
+    display: block;
+    height: 25px;
+    width: 200px;
+    margin: 10px;
+    border: 1.5px solid #c3cdc0;
+}

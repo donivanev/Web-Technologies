@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="81992_Doni_Ivanov_h3.css">
+</head>
+<body>
+    <form method="post" action="81992_Doni_Ivanov_h3.php" id="myForm">
+        <label for="name">Име на учебен предмет:</label>
+        <input type="text" name="name" placeholder="предмет">
+        <label for="teacher">Име на преподавател:</label>
+        <input type="text" name="teacher" placeholder="преподавател">
+        <label for="description">Описание:</label>
+        <textarea form="myForm" name="description" placeholder="описание"></textarea>
+        <label for="group">Група:</label>
+        <select name="group">
+            <option>М</option>
+            <option>ПМ</option>
+            <option>ОКН</option>
+            <option>ЯКН</option>
+        </select>
+        <label for="credits">Кредити:</label>
+        <input type="number" name="credits" placeholder="кредити">
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
