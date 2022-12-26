@@ -1,0 +1,114 @@
+body {
+    color: black;
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+h1, nav {
+    font-size: 25px;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    color: black;
+    background-color: lightgray;
+    top: 0;
+}
+
+.nav {
+    color: #DC143C;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 20px 50px;
+}
+
+h2 {
+    color: #DC143C;
+    font-size: 25px;
+}
+
+li {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.examples {
+    text-align: center;
+}
+
+span {
+    color: #DC143C;
+}
+
+.hovertext {
+    position: relative;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+code {
+    color: #DC143C;
+    font-size: 20px;
+    font-style: italic
+}
+
+#attacks {
+    width: 700px;
+    height: 250px;
+    background-color: white;
+}
+
+#refs {
+    list-style-type: none;
+}
+
+#mainPic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+#footer {
+    text-align: center;
+    font-size: 25px;
+}
